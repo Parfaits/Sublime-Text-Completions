@@ -1,0 +1,7 @@
+<snippet>
+    <scope>source.lua</scope>
+    <tabTrigger>elseif</tabTrigger>
+    <content><![CDATA[elseif (${1:condition}) then
+    ${0:-- body}]]></content>
+    <description>Custom Lua elseif-statement autocomplete</description>
+</snippet>

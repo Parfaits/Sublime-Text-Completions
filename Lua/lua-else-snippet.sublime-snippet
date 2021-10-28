@@ -1,0 +1,8 @@
+<snippet>
+    <scope>source.lua</scope>
+    <tabTrigger>else</tabTrigger>
+    <content><![CDATA[else
+    ${0:-- body}
+end]]></content>
+    <description>Custom Lua else-statement autocomplete</description>
+</snippet>

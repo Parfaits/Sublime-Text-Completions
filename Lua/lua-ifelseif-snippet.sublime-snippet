@@ -1,0 +1,9 @@
+<snippet>
+    <scope>source.lua</scope>
+    <tabTrigger>ifelseif</tabTrigger>
+    <content><![CDATA[if (${1:condition}) then
+    ${0:-- body}
+elseif () then
+    -- body]]></content>
+    <description>Custom Lua if-statement with elseif attached</description>
+</snippet>

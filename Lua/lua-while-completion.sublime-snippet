@@ -1,0 +1,8 @@
+<snippet>
+    <scope>source.lua</scope>
+    <tabTrigger>while</tabTrigger>
+    <content><![CDATA[while (${1:condition}) do
+    ${0:-- body}
+end]]></content>
+    <description>Custom Lua while statement completion</description>
+</snippet>

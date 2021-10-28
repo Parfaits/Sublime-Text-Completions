@@ -1,0 +1,10 @@
+<snippet>
+    <scope>source.lua</scope>
+    <tabTrigger>class</tabTrigger>
+    <content><![CDATA[local ${1:${TM_FILENAME/(.+)\..+/$1/}} = {}
+
+$0
+
+return ${1}]]></content>
+    <description>Lua Module</description>
+</snippet>
