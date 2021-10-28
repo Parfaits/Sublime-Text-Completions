@@ -2,6 +2,16 @@
     "scope": "source.lua",
     "completions": [
         {
+            "trigger": "class",
+            "contents": "local ${1:Module} = {}\n\nfunction ${2:Module}:new(o)\n\to = o or {}\nsetmetatable(o, self)\nself.__index = self\nreturn o\nend\n\nreturn ${3:Module}",
+            "kind": "snippet"
+        },
+        {
+            "trigger": "class",
+            "contents": "local ${1:Module} = {}\n\nlocal function newInstance(obj)\n\tfunction obj:new(o)\n\to = o or {}\nsetmetatable(o, self)\nself.__index = self\nreturn o\nend\nreturn obj\nend\n\nfunction ${2:Module}:new(object)\n\treturn newInstance(object):new()\nend\n\nreturn ${3:Module}",
+            "kind": "snippet"
+        },
+        {
             "trigger": "if",
             "contents": "if (${1:condition}) then\n\t$0\nend\n",
             "kind": "snippet"

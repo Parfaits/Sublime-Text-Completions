@@ -1,0 +1,22 @@
+<snippet>
+    <scope>source.lua</scope>
+    <tabTrigger>class</tabTrigger>
+    <content><![CDATA[local ${1:${TM_FILENAME/(.+)\..+/$1/}} = {}
+
+local function newInstance(obj)
+    function obj:new(o)
+        o = o or {}
+        setmetatable(o, self)
+        self.__index = self
+        return o
+    end
+    return obj
+end
+
+function ${2:${TM_FILENAME/(.+)\..+/$2/}}:new(object)
+    return newInstance(object):new()
+end
+
+return ${3:${TM_FILENAME/(.+)\..+/$3/}}]]></content>
+    <description>Module with inheritance factory</description>
+</snippet>

@@ -4,5 +4,5 @@
     <content><![CDATA[if (${1:condition}) then
     ${0:-- body}
 end]]></content>
-    <description>Custom lua if-statement autocomplete</description>
+    <description>Custom Lua if-statement autocomplete</description>
 </snippet>
