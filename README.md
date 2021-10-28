@@ -1,8 +1,8 @@
 # Sublime-Text-Completions
-Custom completions for code. E.g., 'if' should complete to 
-if (condition) then
-  -- body
-end
+Custom completions for code. E.g., 'if' should complete to\n
+if (condition) then\n
+  -- body\n
+\nend
 
 ## Install
 - Open Sublime Text
