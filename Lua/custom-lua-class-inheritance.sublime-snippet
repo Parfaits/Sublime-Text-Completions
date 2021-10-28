@@ -13,10 +13,10 @@ local function newInstance(obj)
     return obj
 end
 
-function ${2:${TM_FILENAME/(.+)\..+/$2/}}:new(object)
+function ${1}:new(object)
     return newInstance(object):new()
 end
 
-return ${3:${TM_FILENAME/(.+)\..+/$3/}}]]></content>
+return ${1}]]></content>
     <description>Module with inheritance factory</description>
 </snippet>

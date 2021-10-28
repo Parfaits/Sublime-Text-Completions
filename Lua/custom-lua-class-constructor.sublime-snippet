@@ -3,13 +3,13 @@
     <tabTrigger>class</tabTrigger>
     <content><![CDATA[local ${1:${TM_FILENAME/(.+)\..+/$1/}} = {}
 
-function ${2:${TM_FILENAME/(.+)\..+/$2/}}:new(o)
+function ${1}:new(o)
     o = o or {}
     setmetatable(o, self)
     self.__index = self
     return o
 end
 
-return ${3:${TM_FILENAME/(.+)\..+/$3/}}]]></content>
+return ${1}]]></content>
     <description>Module with constructor</description>
 </snippet>
