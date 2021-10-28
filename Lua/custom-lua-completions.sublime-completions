@@ -1,0 +1,10 @@
+{
+    "scope": "source.lua",
+    "completions": [
+        {
+            "trigger": "if",
+            "contents": "if (${1:condition}) then\n\t$0\nend\n",
+            "kind": "snippet"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+<snippet>
+    <scope>source.lua</scope>
+    <tabTrigger>if</tabTrigger>
+    <content><![CDATA[if (${1:condition}) then
+    ${0:-- body}
+end]]></content>
+    <description>Custom lua if-statement autocomplete</description>
+</snippet>
