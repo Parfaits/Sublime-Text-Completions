@@ -1,10 +1,10 @@
 # Sublime-Text-Completions
 Custom completions for code. E.g., 'if' should complete to\
 if (condition) then\
-  -- body\
+    -- body\
 end
 
 ## Install
 - Open Sublime Text
 - **Preferences** -> **Browse Packages...**
-- Extract this repository folder into packages
+- Extract language folder into packages
