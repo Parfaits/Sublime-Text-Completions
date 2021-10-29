@@ -13,7 +13,7 @@ local function newInstance(obj)
     return obj
 end
 
-function ${1}:new(object)
+function ${1}:newInstance(object)
     return newInstance(object):new()
 end
 
