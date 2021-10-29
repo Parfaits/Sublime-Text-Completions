@@ -1,0 +1,6 @@
+<snippet>
+    <scope>source.lua</scope>
+    <tabTrigger>table.insert</tabTrigger>
+    <content><![CDATA[table.insert(${1:dest}, ${2:element})]]></content>
+    <description>Lua table insert (push) @param dest the destination table @param element the element to be inserted</description>
+</snippet>

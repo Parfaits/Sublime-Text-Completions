@@ -1,0 +1,6 @@
+<snippet>
+    <scope>source.lua</scope>
+    <tabTrigger>table.pop</tabTrigger>
+    <content><![CDATA[table.remove(${1:src})]]></content>
+    <description>Lua table remove (pop) @param src target table for the operation. Removes last element in table</description>
+</snippet>

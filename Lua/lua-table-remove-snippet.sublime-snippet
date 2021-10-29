@@ -1,0 +1,6 @@
+<snippet>
+    <scope>source.lua</scope>
+    <tabTrigger>table.remove</tabTrigger>
+    <content><![CDATA[table.remove(${1:src}, ${2:position})]]></content>
+    <description>Lua table remove @param src target table for the operation @param position the index to remove</description>
+</snippet>
